@@ -39,16 +39,15 @@ nav li {
 	text-transform: uppercase;
 }
 
-nav li:hover {
-	font-size: 22px;
-}
-
-
-
 nav a {
 	text-decoration: none;
 	color:  #0076a3;
 	font-family: 'Alfa Slab One', cursive;
+	transition: 400ms;
+}
+
+nav a:hover {
+	font-size: 24px;
 }
 
 
