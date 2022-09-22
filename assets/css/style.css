@@ -27,26 +27,26 @@ h1 {
 
 nav {
 	position: absolute;
-	top: 50px;
-	left: 540px;
+	top: 3.125rem;
+	left: 33.75rem;
 }
 
-nav li {
+li {
 	display: inline-block;
-	margin-left: 20px;
-	font-size: 20px;
+	margin-left: 1.25rem;
+	font-size: 1.25rem;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
-nav a {
+a {
 	text-decoration: none;
 	color: #0076a3;
 	font-family: 'Alfa Slab One', cursive;
 	cursor: pointer;
 }
 
-nav a:hover {
+a:hover {
 	color: #0076f8;
 }
 
@@ -55,28 +55,21 @@ nav a:hover {
 
 .container-section {
 	width: 71.25rem;
-	margin: 150px auto 0;
+	margin: 9.375rem auto 0;
 }
 
 
 h2 {
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 2.5rem;
 	color: #0076a3;
 	display: inline-block;
 	width: 50%;
 }
 
-h3 {
-	font-size: 40px;
-	display: inline-block;
-	font-weight: bold;
-	width: 50%;
-}
-
 p {
 	text-align: justify;
-	padding: 30px 0;
+	padding: 1.875rem 0;
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
 	width: 50%;
@@ -88,7 +81,7 @@ p {
 	width: 49%;
 	margin: 0;
 	float: right;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 1.25rem;
 
 
 }
@@ -102,31 +95,31 @@ fieldset {
 	display: inline-block;
 	border: none;
 	width: 50%;
-	padding-top: 20px;
+	padding-top: 1.25rem;
 }
 
 .input-um {
 	width: 100%;
-	border-radius: 20px;
-	padding: 15px;
-	margin-bottom: 15px;
-	font-size: 20px;
+	border-radius: 1.25rem;
+	padding: 0.9375rem;
+	margin-bottom: 0.9375rem;
+	font-size: 1.25rem;
 }
 
 .input-dois {
 	width: 100%;
-	border-radius: 20px;
-	padding: 15px;
-	font-size: 20px;
+	border-radius: 1.25rem;
+	padding: 0.9375rem;
+	font-size: 1.25rem;
 }
 
 .botao-enviar {
 	width: 40%;
-	padding: 15px;
-	border-radius: 20px;
+	padding: 0.9375rem;
+	border-radius: 1.25rem;
 	background-color: #0076a3;
-	margin-top: 20px;
-	font-size: 20px;
+	margin-top: 1.25rem;
+	font-size: 1.25rem;
 	cursor: pointer;
 }
 
@@ -134,14 +127,14 @@ fieldset {
 	background-color: #0076f8;
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 54.6875rem) {
 	.container-form, .container-header, .container-section, .input-um, .input-dois {
 		width: auto;
 		margin: 0 auto;
 	}
 
 	header {
-		height: 150px;
+		height: 9.375rem;
 	}	
 
 
@@ -158,17 +151,17 @@ fieldset {
 	}
 
 	nav li {
-		font-size: 14px;
+		font-size: 0.875rem;
 	}
 
 	p {
 		width: auto;
 		text-align: justify;
-		padding: 20px 10px 0 10px;
+		padding: 1.25rem 10px 0 0.625rem;
 	}
 
-	h2, h3 {
-		font-size: 40px;
+	h2 {
+		font-size: 2.5rem;
 		width: auto;
 		display: flex;
 		flex-direction: column;
@@ -178,11 +171,11 @@ fieldset {
 
 	.img-tecno {
 		margin: 0 auto;
-		padding: 20px 0 0 0;
+		padding: 1.25rem 0 0 0;
 	}
 
 	.container-form {
-		padding-top: 20px auto;
+		padding-top: 1.25rem auto;
 		width: auto;
 		display: flex;
 		flex-direction: column;
@@ -198,7 +191,7 @@ fieldset {
 	}
 
 	.input-um {
-		margin-bottom: 20px;
+		margin-bottom: 1.25rem;
 	}
 
 }
